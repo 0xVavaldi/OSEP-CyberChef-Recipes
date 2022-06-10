@@ -15,6 +15,7 @@ Modify the ADD module to your Ceasar ADD or replace with SUB if you want to do m
 
 ## C Based shellcode:
 cmd: `msfvenom -p <payload> -f c`
+
 Runner: https://github.com/TheWorkingDeveloper/OSEP-CyberChef-Recipes/blob/main/C-XOR-Runner.c
   
 ### XOR Encryption:
