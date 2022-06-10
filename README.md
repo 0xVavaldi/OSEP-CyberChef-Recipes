@@ -1,5 +1,5 @@
 # OSEP CyberChef Recipes
-Some handy recipes for OSEP exercises to generate encoded shellcodes with
+Some handy recipes for OSEP exercises to help generate shellcodes with that are obfuscated to help bypass AV's
 
 ## C Based shellcode:
 cmd: `msfvenom -p <payload> -f c`
