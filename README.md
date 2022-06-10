@@ -1,5 +1,5 @@
 # OSEP CyberChef Recipes
-Some handy recipes for OSEP exercises to help generate shellcodes with that are obfuscated to help bypass AV's
+Some handy recipes for OSEP exercises to help generate shellcodes with that are obfuscated to help bypass AV's. Follow the link and copy paste your own msfvenom output in the box and get an encoded/encrypted variant back in the output box. It's that simple! You do have to write the proper decoding/decrypting code though.
 
 ## C# Based shellcode
 cmd: `msfvenom -p <payload> -f csharp`
